@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input {
+            padding: 35px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+ <h1>Trabalando com Dados</h1>
+ <input type="button" value="Clique para Começar" onclick="apresentação()">  
+ <section id="resultado">
+     <p>
+         Olá, 
+        ! É um grande prazer te conhecer! 🖖 
+     </p>
+ </section>
+ <script>
+     function apresentação() {
+         let nome = window.prompt('Qual é o seu nome?')
+         let res = window.document.getElementById('resultado')
+         //let res = window.document.querySelector('section#resultado')
+         // Também funciona com o comando abaixo
+         // let res = window.document.querySelector('section#resultado')
+         res.innerHTML = `<p>Olá, <strong>${nome}</strong>! É um grande prazer te conhecer! &#x1F596</p>`
+
+
+    }
+ </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+:root {
+    --font-titulo:'Kalam', cursiva;
+    --font-paragrafos:'Roboto Mono',cursiva;
+}
+body {
+    background-color: rgb(78, 134, 255);
+    
+}
+h1 {
+    text-align: center;
+    font-family: var(--font-titulo);
+    color: white;
+    
+}
+section {
+    background-color: white;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    margin: auto;
+    text-align: center;
+    font-family: var(--font-paragrafos);
+}
+mark {
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+}
+footer {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+footer > a  {
+    text-decoration: none;
+    color: white;
+    
+}
+footer a:hover {
+    text-decoration: underline;
+}

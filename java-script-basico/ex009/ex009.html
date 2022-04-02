@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Cliques</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        :root {
+            --font-titulo: 'Pacifico', cursive;
+        }
+        h1 {
+            font-family: var(--font-titulo);
+            font-weight: normal;
+        }
+        input {
+            padding: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contador de cliques</h1>
+    <input type="button" value="Clique em mim" onclick="numeros()">
+    <input type="button" value="Zerar o contador"  onclick="borracha()">
+    <section id="result">
+        <p>
+            O contador esta com cliques.
+        </p>
+    </section>
+    <script>
+            let contador = 0
+            let res = window.document.querySelector('section#result')
+
+        function numeros() {
+            contador ++// É a mesma coisa que contador = contador + 1
+            res.innerHTML = `<p>O contador está com <mark>${contador}</mark> cliques</p>`
+        }
+
+        function borracha() {
+            contador = 0
+            res.innerHTML = null
+        }
+        
+    </script>
+</body>
+</html>

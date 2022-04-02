@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições Aninhada</title>
+    <style>
+        body {
+            background-color: rgb(122, 175, 255);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            color: white;
+        }
+        section{
+            background-color: white;
+            width: 400px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+            margin: auto;
+        }
+        footer {
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            
+        }
+        footer > a {
+            text-decoration: none;
+            color: white;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Condições Aninhada (if, else) </h1>
+        <h2>Verificador de Idade</h2>
+    </header>
+    
+    <section>
+        <div>
+            <p>
+                <strong>Ano de Nascimento:</strong>
+                <input type="number" name="txtano" id="txtano"min="0">
+            </p>
+
+            <p><strong>Sexo:</strong>
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+            
+
+        </div>
+
+        <div id="res">
+            
+            Preecha os dados a cima para ver o Resultado!
+             
+        </div>
+    </section>
+
+    <footer>
+        &copy site criado por <a href="https://github.com/jonasjps/" target="_blank">Jonas Pessoa </a> 
+    </footer>
+
+    <script src="script.js"></script>
+        
+</body>
+</html>

@@ -1,0 +1,17 @@
+var res = document.querySelector('section#result')
+
+function a1() {
+    res.innerHTML += '<p>Clicou no Primeiro balão</p>'  
+}
+
+function a2() {
+    res.innerHTML += '<p>Clicou no Segundo balão</p> '
+}
+
+function a3() {
+    res.innerHTML += '<p>Clicou no Terceiro balão</p>'
+}
+
+function a4() {
+    res.innerHTML += '<p>Clicou no Quarto balão</p>'
+}

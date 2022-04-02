@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(184, 184, 253);
+}
+section {
+    background-color: white;
+    width: 308px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.658);
+    margin: auto;
+}
+input#but {
+    background-color:rgb(159, 195, 250);
+}
+
+:root {
+    --fonte-titulo: 'pacifico',cursiva;
+    --fonte-linhas: 'ANTON', cursive;
+}
+h1 {
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    color: black;
+    text-align: center;
+
+}
+p{
+    font-family: var(--fonte-linhas);
+}
+footer {
+    text-align: center;
+    color:black;
+    padding-top: 25px;
+}
+strong {
+    padding: 5px;
+    background-color: rgb(72, 72, 247);
+    border-radius: 7px;
+    color: white;
+}
+mark {
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+footer > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+footer > a:hover {
+    text-decoration: underline;
+}

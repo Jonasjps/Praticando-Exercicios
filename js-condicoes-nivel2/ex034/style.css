@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --fonte-titulo: 'pacifico', cursiva;
+    --fonte-paragrafos: 'Fira Code', monospace, cursiva;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html, body  {
+    min-height: 100vh;
+    
+}
+header {
+    background-color: rgb(8, 8, 8);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: var(--fonte-paragrafos);
+}
+header.capa {
+    background-image: url('imagens/capa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    text-align: right;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 3.5vw;
+}
+h2 {
+    text-align: center;
+    font-family: var(--fonte-paragrafos);
+    font-weight:900;
+    padding-top: 20px;
+    font-size: 3.5vw;
+}
+section {
+    padding-top: 10vh ;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+section > p {
+    padding-bottom: 2e;
+}  
+section.imagem {
+    background-color: rgba(37, 37, 37, 0.473);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 10px;
+}
+section#img1 {
+    background-image: url('imagens/maosdadas2.jpg');
+    background-repeat: no-repeat;
+    background-position:left center;
+
+}
+
+p {
+    font-family: var(--fonte-paragrafos);
+    font-weight: 500;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condições aninhada</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>   
+<h1>Verificador de Idade</h1>
+
+ <section>
+    <div>
+        <p>
+            <strong>Ano de Nascimento:</strong>
+            <input type="number" name="txtano" id="txtano" min="0">
+        </p>
+        <p><strong>sexo:</strong>
+            <input type="radio" name="txt" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="txt" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="Verificar" onclick="Verificar()">
+        </p>
+    </div>
+    <div id="res">
+        <p>
+            Prencha os dados acima para ver o resultado!
+        </p>
+    </div>
+</section>
+<script src="script/idade.js"></script>
+<footer>
+    &copy site criado por <a href="https://github.com/jonasjps/" target="_blank">Jonas Pessoa</a> 
+</footer>
+</body>
+</html>
