@@ -44,10 +44,10 @@ h2 {
     font-size: 3.5vw;
 }
 section {
-    padding-top: 10vh ;
+    padding-top: 5vh ;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
+    padding-left: 20px;
     font-size: 3.5vw;
 }
 section > p {
@@ -68,13 +68,48 @@ section.imagem > p {
     border-radius: 10px;
 }
 section#img1 {
-    background-image: url('imagens/maosdadas2.jpg');
+    background-image: url('imagens/_DSC0345~2.JPG');
     background-repeat: no-repeat;
-    background-position:left center;
+    background-size: cover;
+    background-position:center center;
 
+}
+section#img2 {
+    background-image: url('imagens/jonasevivi.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+section#img3 {
+    background-image: url('imagens/beijo.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
+}
+section.beijo > p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    border-radius: 10px;
 }
 
 p {
     font-family: var(--fonte-paragrafos);
     font-weight: 500;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom:5px;
+    text-align: center;
+}
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+footer > a:hover {
+    text-decoration: underline;
 }
