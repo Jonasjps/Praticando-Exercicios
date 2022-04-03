@@ -17,15 +17,16 @@ html, body  {
 }
 header {
     background-color: rgb(8, 8, 8);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: var(--fonte-paragrafos);
 }
 header.capa {
-    background-image: url('imagens/capa.jpg');
+    background-image: url('imagens/aliaça2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 h1 {
     font-family: var(--fonte-titulo);
