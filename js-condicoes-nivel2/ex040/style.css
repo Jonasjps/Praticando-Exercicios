@@ -9,7 +9,8 @@ h1,h2 {
 input#Botão {
     background-color: green;
     color: white;
+    padding: 5px;
 }
 input#txtn1 {
-    width: 50px;
+    font-size: 10pt;
 }
