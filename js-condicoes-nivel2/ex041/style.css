@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Rubik+Moonrocks&display=swap');
+body {
+    font: 10pt Arial;
+}
+h1,h2 {
+    font-family: 'Rubik Moonrocks';
+}
+input#botão {
+    background-color: green;
+    color: white;
+    padding: 4px;
+}
