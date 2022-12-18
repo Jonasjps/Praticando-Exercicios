@@ -2,48 +2,29 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brincando de programar</title>
-    <style>
-        body {
-            background-color:rgba(148, 148, 249, 0.92);
-            font-family: Arial, Helvetica, sans-serif;
-
-        }
-        h1 {
-            text-align: center;
-            background-color: white;
-            border-radius: 10px;
-            padding: 8px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
-        }
-        #botão {
-            background-color: green;
-            color: white;
-            padding: 5px;
-            text-align: center;
-            border-color: black;
-        }
-
-        .botão2 {
-            text-align: center;
-        }
-        
-    </style>
+    <title>Praticando</title>
 </head>
-
-<body>
-    <h1>Relembrando algumas coisas</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, autem similique. Saepe reiciendis, a accusantium repellat corrupti sapiente architecto ex id exercitationem eveniet ullam! Neque natus soluta minus explicabo dolore?</p>
-    <p class="botão2"><input type="button" id="botão" value="Clique aqui" onclick= "clicar"></p>
-
-</body>
-<script>
-    function clicar() {
-        alert('Voçê acabou de clicar no Botão.')
+<style>
+    body {
+        background-color: rgba(0, 0, 0, 0.442);
     }
-        
-    
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+    p {
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Vamos brincar um pouco</h1>
+
+    <script>
+        let fabricante = prompt('Qual a fabricante do seu carro?')
+         let modelo = prompt(`Agora que sabemos que seu carro é da ${fabricante.toUpperCase()}, qual é o modelo?`)
     </script>
+</body>
 </html>
