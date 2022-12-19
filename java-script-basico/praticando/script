@@ -1,0 +1,16 @@
+let velocidade = 0
+        let desaceleração = 0
+        let modelo = prompt(`Qual o modelo do seu carro ?`)
+        do { let Menu = prompt(`Menu
+                 1- Acelerar 5km/h 
+                 2- Desacelerar 5km/h
+                 3- computador de bordo
+                 4- Sair do programa. `)}while (Menu)
+        function acelerar(velocidade = 0, aceleração) {
+            let NovaVelocidade = velocidade + aceleração 
+        }
+       switch(modelo) {
+        case 1: 
+            `A velocidade do carro é de ${acelerar(+ 5)}km/h`
+        break
+       }
